@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!--<script>
+      var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+      if (!isChrome){
+          $('#iframeAudio').remove()
+      }
+      else {
+          $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+      }
+
+    </script>-->
+  </head>
+ 
+  <body>
+    <!--<audio  autoplay id="tah_audio"  >
+      <source src="./music/WhatsApp Audio 2022-12-13 at 16.40.22.mp3">
+    </audio>
+    <audio controls  autoplay id="audioID" loop> <source src="./music/WhatsApp Audio 2022-12-13 at 16.40.22.mp3"  type="audio/mp3"></audio>-->
+
+    <img id="bg-img" src="./images/whatsapp image 2022-12-01 at 07.10.36 (1).jpeg" alt="">
+   <!--<iframe src="./music/WhatsApp Audio 2022-12-13 at 16.40.22.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe>  
+<audio  autoplay loop  id="playAudio">
+  <source src="./music/WhatsApp Audio 2022-12-13 at 16.40.22.mp3">
+</audio>-->
+
+     <!--<audio autoplay >
+      <source src="./music/WhatsApp Audio 2022-12-13 at 16.40.22.mp3" type="audio/mpeg">
+    </audio>
+     <audio id="tah_audio" src="./music/WhatsApp Audio 2022-12-13 at 16.40.22.mp3" loop="loop"></audio>
+     <iframe src="./music/WhatsApp Audio 2022-12-13 at 16.40.22.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+     <audio id="player" autoplay loop >
+      <source src="./music/WhatsApp Audio 2022-12-13 at 16.40.22.mp3" type="audio/mp3">
+     </audio>-->
+  
+      <h1>Ajay's</h1>
+      <h2>Christmas</h2>
+      <h3>Countdown</h3>
+      
+
+      <div class="counter">
+        <div class="box">
+          <p id="day">00</p>
+          <small>Days</small>
+        </div>
+
+        <div class="box">
+          <p id="hour">00</p>
+          <small>Hours</small>
+        </div>
+
+        <div class="box">
+          <p id="min">00</p>
+          <small>Mins</small>
+        </div>
+
+        <div class="box">
+          <p id="sec">00</p>
+          <small>Seconds</small>
+        </div>
+      </div>
+    
+
+    <script src="./js/script.js">
+      var myaudio = document.getElementById("audioID").autoplay = true;
+    </script>
+    
+    
+  </body>
+</html>
